@@ -5,8 +5,8 @@ const htmlRoutes = require("./routes/htmlRoutes.js")(app);
 const apiRoutes = require("./routes/apiRoutes.js")(app);
 
 
+const PORT = process.env.PORT||'8080'
 
-const PORT = process.env.PORT || 8080;
 const db = require("./Models");
 
 app.use(express.urlencoded({extended: true}));
@@ -25,7 +25,5 @@ mongoose
     });
 
 
-
-app.listen(PORT, function() {
-    console.log("Server is listening on PORT: " + PORT);
-  });
+    app.set("port",PORT);
+    app.listen(process.env.PORT || 3000);
