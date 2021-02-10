@@ -1,1 +1,1 @@
-# Workout-Tracker
+This is an application used to create workouts, track workouts, and keep track of previously designed workouts. This application works perfectly fine on my local server, but when I tried to deploy to Heroku, I was met with an error H-10 and the application crashing. I'm going to meet with my tutor to try and fix it, because I have tried numerous solutions online to no avail.
