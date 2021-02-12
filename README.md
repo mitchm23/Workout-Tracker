@@ -1,1 +1,5 @@
-This is an application used to create workouts, track workouts, and keep track of previously designed workouts. This application works perfectly fine on my local server, but when I tried to deploy to Heroku, I was met with an error H-10 and the application crashing. I'm going to meet with my tutor to try and fix it, because I have tried numerous solutions online to no avail.
+User Story
+
+As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+
+This application allows the user to create and update their own workouts, and pull old ones from a database using MongoDB.
